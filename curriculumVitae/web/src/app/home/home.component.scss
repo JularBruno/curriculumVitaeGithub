@@ -1,0 +1,122 @@
+@import "../../assets/variables";
+
+.content {
+    background-color: $color_3;
+    .principalContainer {
+        background-color: $color_1;
+
+        .name {
+            padding-left: 1em;
+            padding-top: 0.7em;
+            color:white;
+            font-size: 3em;
+        }
+
+        .nameM {
+            padding-left: 30%em;
+            padding-top: 1em;
+            color:white;
+            font-size: 3em;
+        }
+
+        .rowPhto {
+
+            .textColLeft {
+
+                justify-content: center;
+                display: flex;
+                align-items: end;
+                flex-direction: column;
+
+                
+            }
+            .vl {
+                border-left: 6px solid green;
+                height: 1.8em;
+                margin-top: 0.5em;
+            }
+            .textCol {
+
+                justify-content: center;
+                display: flex;
+                align-items: left;
+                flex-direction: column;
+                margin-left: 0em;
+
+                .vl {
+                    border-left: 6px solid green;
+                    height: 1.8em;
+                    margin-top: 0.5em;
+                }
+
+            }
+            
+            .photoCol {
+                justify-content: center;
+                display: flex;
+                align-items: center;
+
+                img {
+                    border-radius: 50%;
+                    height: 20em;
+                    border: 2.5px solid white;
+                  }
+            }
+        }
+
+        .rowBars {
+            height: 100%;
+
+        }
+        .rowAct {
+            height: 100%;
+            color: white;
+
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            .colLeft {
+                text-align: end;
+
+            }
+
+        }
+
+        .rowCollapsible {
+
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .rows {
+                width: 80%;
+                .btn {
+                    width: 100%;
+                    text-align: left;
+                }
+                
+            }
+            .rowsText {
+                background-color: white;
+                width: 80%;
+                padding: 1em;
+
+                a {
+                    font-size: 2em;
+                }
+            }
+        }
+
+        .containerContact {
+            background-color: white;
+            padding: 2em;
+        }
+        
+    }
+
+    // 
+    .progress-bar {
+        background-color: $color_2;
+    }
+}

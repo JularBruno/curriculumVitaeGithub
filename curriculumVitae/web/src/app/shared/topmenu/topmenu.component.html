@@ -1,0 +1,27 @@
+<!-- <div class="top-container"></div> -->
+<div class="header">
+  <div class="container">
+    <nav class="navbar navbar-expand-md navbar-light bg-faded">
+      <h1 style="color: white;">
+        Curriculum Vitae
+      </h1>
+      <button (click)="toggleCollapse()" aria-controls="navbarSupportedContent" aria-label="Toggle navigation"
+        class="navbar-toggler navbar-toggler-right collapsed" data-target="#navbarSupportedContent"
+        data-toggle="collapse" type="button" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" [class.show]="show" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://wa.me/5493512613917" style="font-size: 1.3em;">
+              <i class="fa fa-whatsapp"></i>
+               WhatsApp
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>
